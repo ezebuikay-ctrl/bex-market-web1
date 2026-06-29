@@ -2,7 +2,7 @@
 // Enables installability (Add to Home Screen) and basic offline support.
 // API requests (/api) are never cached so seller/buyer data stays live.
 
-const CACHE = "bex-market-v1";
+const CACHE = "bex-market-v2";
 const APP_SHELL = ["/", "/manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
